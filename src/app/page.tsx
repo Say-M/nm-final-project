@@ -11,7 +11,7 @@ import { Badge } from "@/components/ui/badge";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Calculator, Download } from "lucide-react";
 import dynamic from "next/dynamic";
-import * as math from "mathjs";
+const math = require("mathjs");
 import { CheckedState } from "@radix-ui/react-checkbox";
 
 // Dynamically import Plotly to avoid SSR issues
